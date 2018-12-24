@@ -105,8 +105,8 @@ define gui.textbox_yalign = 1.0
 ## Местоположение имени говорящего персонажа по отношению к текстовому окну.
 ## Это могут быть целые значения в пикселях слева и сверху от начала окна или
 ## процентное отношение, например, 0.5 для центрирования.
-define gui.name_xpos = 240
-define gui.name_ypos = 0
+define gui.name_xpos = 165
+define gui.name_ypos = 35
 
 ## Горизонтальное выравнивание имени персонажа. Это может быть 0.0 для
 ## левоориентированного, 0.5 для центрированного и 1.0 для правоориентированного
@@ -130,11 +130,11 @@ define gui.namebox_tile = False
 ## Размещение диалога по отношению к текстовому окну. Это могут быть целые
 ## значения в пикселях слева и сверху от текстового окна или процентное
 ## отношение, например, 0.5 для центрирования.
-define gui.dialogue_xpos = 268
-define gui.dialogue_ypos = 50
+define gui.dialogue_xpos = 185
+define gui.dialogue_ypos = 40
 
 ## Максимальная ширина текста диалога в пикселях.
-define gui.dialogue_width = 744
+define gui.dialogue_width = 940
 
 ## Горизонтальное выравнивание текста диалога. Это может быть 0.0 для
 ## левоориентированного, 0.5 для центрированного и 1.0 для правоориентированного
@@ -192,7 +192,7 @@ define gui.page_button_borders = Borders(10, 4, 10, 4)
 
 define gui.quick_button_borders = Borders(10, 4, 10, 0)
 define gui.quick_button_text_size = 14
-define gui.quick_button_text_idle_color = gui.idle_small_color
+define gui.quick_button_text_idle_color =  "#000000" #MAYBE: gui.text_color # OLD: gui.idle_small_color
 define gui.quick_button_text_selected_color = gui.accent_color
 
 ## Вы также можете добавить собственные настройки, добавляя правильно
@@ -249,7 +249,7 @@ define gui.file_slot_rows = 2
 
 ## Местоположение левого края навигационных кнопок по отношению к левому краю
 ## экрана.
-define gui.navigation_xpos = 40
+define gui.navigation_xpos = 0 # OLD: 40
 
 ## Вертикальная позиция индикатора пропуска.
 define gui.skip_ypos = 10

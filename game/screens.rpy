@@ -100,14 +100,17 @@ screen say(who, what):
     window:
         id "window"
 
-        if who is not None:
+        hbox:
+            xmaximum gui.dialogue_width
 
-            window:
-                id "namebox"
-                style "namebox"
-                text who id "who"
+            if who is not None:
 
-        text what id "what"
+                window:
+                    id "namebox"
+                    style "namebox"
+                    text who id "who"
+
+            text what id "what"
 
 
     ## Если есть боковое изображение ("голова"), показывает её поверх текста.
@@ -251,7 +254,7 @@ screen quick_menu():
             style_prefix "quick"
 
             xalign 0.5
-            yalign 1.0
+            ypos 698
 
             textbutton _("Назад") action Rollback()
             textbutton _("История") action ShowMenu('history')

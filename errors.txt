@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/screens.rpy", line 113: u'max' is not a keyword argument or valid child for the text statement.
+    max xsize 100
+       ^
+
+Ren'Py Version: Ren'Py 7.0.0.196
+Mon Dec 24 03:20:57 2018
