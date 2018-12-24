@@ -49,17 +49,17 @@ define gui.muted_color = '#002851'
 define gui.hover_muted_color = '#003d7a'
 
 ## Цвета, используемые в тексте диалогов и выборов.
-define gui.text_color = '#ffffff'
+define gui.text_color = '#000000'
 define gui.interface_text_color = '#ffffff'
 
 
 ## Шрифты и их размеры #########################################################
 
 ## Шрифт, используемый внутриигровым текстом.
-define gui.text_font = "DejaVuSans.ttf"
+define gui.text_font = "gui/font/Arciform.otf"
 
 ## Шрифт, используемый именами персонажей.
-define gui.name_text_font = "DejaVuSans.ttf"
+define gui.name_text_font = "gui/font/Arciform.otf"
 
 ## Шрифт, используемый текстом вне игры.
 define gui.interface_text_font = "DejaVuSans.ttf"
@@ -131,10 +131,10 @@ define gui.namebox_tile = False
 ## значения в пикселях слева и сверху от текстового окна или процентное
 ## отношение, например, 0.5 для центрирования.
 define gui.dialogue_xpos = 185
-define gui.dialogue_ypos = 40
+define gui.dialogue_ypos = 45
 
 ## Максимальная ширина текста диалога в пикселях.
-define gui.dialogue_width = 940
+define gui.dialogue_width = 920
 
 ## Горизонтальное выравнивание текста диалога. Это может быть 0.0 для
 ## левоориентированного, 0.5 для центрированного и 1.0 для правоориентированного
@@ -249,7 +249,7 @@ define gui.file_slot_rows = 2
 
 ## Местоположение левого края навигационных кнопок по отношению к левому краю
 ## экрана.
-define gui.navigation_xpos = 0 # OLD: 40
+define gui.navigation_xpos = 40
 
 ## Вертикальная позиция индикатора пропуска.
 define gui.skip_ypos = 10
@@ -473,6 +473,3 @@ init python:
 
         gui.nvl_button_width = 1240
         gui.nvl_button_xpos = 20
-
-
-
