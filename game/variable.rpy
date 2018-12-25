@@ -23,6 +23,7 @@ image bg winter forest = 'images/winter_forest.png'
 ## Фоновая музыка
 ################################################################################
 define sad1 = 'bgm/BGM_sad1.mp3'
+define v = 'bgm/BGM_v.mp3'
 
 
 
