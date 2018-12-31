@@ -31,6 +31,7 @@ define vi = Character('Вика', color="#000000")
 
 # Воспомогательные герои
 define n = Character('Незнакомец', color="#000000")
+define d = Character('Диктор', color="#000000")
 
 
 
@@ -56,3 +57,9 @@ define street = 'bgm/BGM_street.wav'
 ## Звуковые эффекты
 ################################################################################
 define vk = 'sounds/SD_vk.mp3'
+define knock = 'sounds/SE_nock.mp3'
+define door = 'sounds/SE_door_open.wav'
+################################################################################
+## Прочие
+define open_eyes = ImageDissolve("ImageDissolve/eye.png", 1.0)
+################################################################################

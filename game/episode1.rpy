@@ -57,7 +57,7 @@ label episode1:
     scene black with dissolve
     window hide
     centered "{color=#ffffff}{size=36}30.12.18{/size}{/color}"
-    scene bg sergei room with dissolve
+    scene bg sergei room with open_eyes
 
     "Я понемногу начал просыпаться."
     "Боль в голове дала о себе знать почти сразу же – похоже, я отлежал её на клавиатуре."
