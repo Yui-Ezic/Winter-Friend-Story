@@ -41,7 +41,8 @@ define d = Character('Диктор', color="#000000")
 image bg park = 'images/park.png'
 image bg sergei room = 'images/sergei_room.png'
 image bg winter forest = 'images/winter_forest.png'
-
+image bg tv = 'images/tv.png'
+image bg camp room = 'images/camp_room.png'
 
 
 ################################################################################
