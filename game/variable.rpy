@@ -12,7 +12,7 @@ image vika norm = 'sprites/vika_norm.png'
 image vika smile = 'sprites/vika_smile.png'
 image vika happy = 'sprites/vika_happy.png'
 image vika frowning = 'sprites/vika_frowning.png'
-image vika serious = 'sprites/vika_serious.png/'
+image vika serious = 'sprites/vika_serious.png'
 image vika thicc = 'sprites/vika_thicc.png'
 image vika angry = 'sprites/vika_angry.png'
 image marina norm = 'sprites/marina_norm.png'
@@ -32,7 +32,7 @@ define vi = Character('Вика', color="#000000")
 # Воспомогательные герои
 define n = Character('Незнакомец', color="#000000")
 define d = Character('Диктор', color="#000000")
-
+define k = Character('Кто-то', color="#000000")
 
 
 ################################################################################

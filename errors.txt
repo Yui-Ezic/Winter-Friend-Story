@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 113: u'max' is not a keyword argument or valid child for the text statement.
-    max xsize 100
-       ^
+File "game/episode3.rpy", line 227: expected statement.
+    Кто-то: "Серёж… Это ты?.."
+          ^
 
-Ren'Py Version: Ren'Py 7.0.0.196
-Mon Dec 24 03:20:57 2018
+Ren'Py Version: Ren'Py 7.1.3.1092
+Mon Dec 31 17:55:10 2018
