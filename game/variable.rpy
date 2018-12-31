@@ -43,6 +43,7 @@ image bg sergei room = 'images/sergei_room.png'
 image bg winter forest = 'images/winter_forest.png'
 image bg tv = 'images/tv.png'
 image bg camp room = 'images/camp_room.png'
+image bg camp night = 'images/camp_night.jpg'
 
 
 ################################################################################
@@ -60,7 +61,11 @@ define street = 'bgm/BGM_street.wav'
 define vk = 'sounds/SD_vk.mp3'
 define knock = 'sounds/SE_nock.mp3'
 define door = 'sounds/SE_door_open.wav'
+
+
+
+
 ################################################################################
 ## Прочие
-define open_eyes = ImageDissolve("ImageDissolve/eye.png", 1.0)
 ################################################################################
+define open_eyes = ImageDissolve("ImageDissolve/eye.png", 1.0)

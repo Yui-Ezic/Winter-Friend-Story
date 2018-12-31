@@ -16,4 +16,6 @@ label start:
 
     call episode3
 
+    call episode4
+
     return
