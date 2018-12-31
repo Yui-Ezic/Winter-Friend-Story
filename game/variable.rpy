@@ -29,6 +29,9 @@ define va = Character('Валера', color="#000000")
 define m = Character('Марина', color="#000000")
 define vi = Character('Вика', color="#000000")
 
+# Воспомогательные герои
+define n = Character('Незнакомец', color="#000000")
+
 
 
 ################################################################################
@@ -45,6 +48,7 @@ image bg winter forest = 'images/winter_forest.png'
 ################################################################################
 define sad1 = 'bgm/BGM_sad1.mp3'
 define v = 'bgm/BGM_v.mp3'
+define street = 'bgm/BGM_street.wav'
 
 
 
